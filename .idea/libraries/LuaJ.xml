@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="LuaJ">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Libs/LuaJ" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Libs/LuaJ" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/Libs/LuaJ" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/Libs/LuaJ" recursive="false" type="SOURCES" />
+  </library>
+</component>

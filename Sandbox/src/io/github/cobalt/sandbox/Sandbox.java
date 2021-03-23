@@ -13,8 +13,6 @@ public class Sandbox extends Application {
 
     @Override
     public boolean OnUpdate(float ts) {
-        System.out.println(Mouse.X());
-        System.out.println(Mouse.Y());
         r2d.Clear(Color.BLUE);
 
         return true;
@@ -22,6 +20,9 @@ public class Sandbox extends Application {
 
     @Override
     public boolean OnCreate() {
+        ScriptEngine.RunFile("scripts/Test.lua");
+        System.out.println("Test_TestVar="+ScriptEngine.GetInt("Test_TestVar"));
+        ScriptEngine.CallFunc("Test_TestFunc");
         return true;
     }
 
