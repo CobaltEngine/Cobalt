@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="GLFW">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Libs/GLFW" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Libs/GLFW" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/Libs/GLFW" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/Libs/GLFW" recursive="false" type="SOURCES" />
+  </library>
+</component>

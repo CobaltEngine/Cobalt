@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Native File Dialog">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Libs/Native File Dialog" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Libs/Native File Dialog" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/Libs/Native File Dialog" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/Libs/Native File Dialog" recursive="false" type="SOURCES" />
+  </library>
+</component>
