@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="GLFW" level="project" />
+    <orderEntry type="library" name="JOML" level="project" />
+    <orderEntry type="library" name="JSFML" level="project" />
+    <orderEntry type="library" name="LWJGL Core" level="project" />
+    <orderEntry type="library" name="Native File Dialog" level="project" />
+    <orderEntry type="library" name="OpenGL" level="project" />
+    <orderEntry type="library" name="Tiny File Dialog" level="project" />
+  </component>
+</module>
