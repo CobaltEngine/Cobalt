@@ -8,5 +8,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="LuaJ" level="project" />
+    <orderEntry type="module" module-name="Engine" />
   </component>
 </module>

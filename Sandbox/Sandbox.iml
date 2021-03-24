@@ -9,5 +9,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="JOML" level="project" />
     <orderEntry type="module" module-name="Engine" />
+    <orderEntry type="module" module-name="Luaj_Modules" />
   </component>
 </module>

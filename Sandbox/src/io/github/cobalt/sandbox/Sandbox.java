@@ -13,8 +13,7 @@ public class Sandbox extends Application {
 
     @Override
     public boolean OnUpdate(float ts) {
-        r2d.Clear(Color.BLUE);
-
+        ScriptEngine.CallFunc("Test_TestFunc");
         return true;
     }
 
@@ -22,7 +21,9 @@ public class Sandbox extends Application {
     public boolean OnCreate() {
         ScriptEngine.RunFile("scripts/Test.lua");
         System.out.println("Test_TestVar="+ScriptEngine.GetInt("Test_TestVar"));
-        ScriptEngine.CallFunc("Test_TestFunc");
+
+
+
         return true;
     }
 

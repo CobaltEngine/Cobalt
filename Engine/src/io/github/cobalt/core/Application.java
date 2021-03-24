@@ -12,6 +12,7 @@ public abstract class Application {
         window = Window.ConstructWindow(width, height, title);
         Mouse.Listen();
         r2d = Renderer2D.ConstructBasedOnContext(window);
+
         if(!OnCreate()) return;
         while(window.IsRunning()) {
             if(!OnUpdate(1)) break;
