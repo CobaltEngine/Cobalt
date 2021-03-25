@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/Engine/Engine.iml" filepath="$PROJECT_DIR$/Engine/Engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/Luaj_Modules/Luaj_Modules.iml" filepath="$PROJECT_DIR$/Luaj_Modules/Luaj_Modules.iml" />
       <module fileurl="file://$PROJECT_DIR$/Sandbox/Sandbox.iml" filepath="$PROJECT_DIR$/Sandbox/Sandbox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ScriptingEngine/ScriptingEngine.iml" filepath="$PROJECT_DIR$/ScriptingEngine/ScriptingEngine.iml" />
     </modules>
   </component>
 </project>

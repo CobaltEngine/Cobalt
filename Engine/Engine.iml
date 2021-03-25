@@ -15,5 +15,6 @@
     <orderEntry type="library" name="OpenGL" level="project" />
     <orderEntry type="library" name="Tiny File Dialog" level="project" />
     <orderEntry type="library" name="LuaJ" level="project" />
+    <orderEntry type="module" module-name="ScriptingEngine" />
   </component>
 </module>

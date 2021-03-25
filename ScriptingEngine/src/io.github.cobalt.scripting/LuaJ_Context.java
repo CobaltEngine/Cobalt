@@ -1,4 +1,4 @@
-package io.github.cobalt.luaj;
+package io.github.cobalt.scripting;
 
 import org.luaj.vm2.Globals;
 import org.luaj.vm2.LuaValue;
@@ -7,19 +7,14 @@ import org.luaj.vm2.lib.jse.JsePlatform;
 import java.util.HashMap;
 
 public class LuaJ_Context {
-    HashMap<String, LuaValue> chunkMap = new HashMap<>();
-    private final Globals globals = JsePlatform.standardGlobals();
-    private static final LuaJ_Context CXT = new LuaJ_Context();
-    public static LuaJ_Context Get() {
-        return CXT;
+    private static final Globals globals = JsePlatform.standardGlobals();
+    private LuaValue chunk;
+    public void LoadFile(String path) {
+        chunk = globals.loadfile(path);
     }
 
-    public void LoadFile(String name,String path) {
-        chunkMap.put(name, globals.loadfile(path));
-    }
-
-    public void Run(String name) {
-        chunkMap.get(name).invoke();
+    public void Run() {
+        chunk.call();
     }
 
     public double GetDouble(String key) {

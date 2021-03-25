@@ -1,9 +1,8 @@
 package io.github.cobalt.sandbox;
 
 import io.github.cobalt.core.*;
-import io.github.cobalt.jsfml.JSFML_Renderer2D;
 
-import java.awt.*;
+import io.github.cobalt.scripting.*;
 
 public class Sandbox extends Application {
 
@@ -13,14 +12,14 @@ public class Sandbox extends Application {
 
     @Override
     public boolean OnUpdate(float ts) {
-        ScriptEngine.CallFunc("Test_TestFunc");
+        ScriptEngine.CallFunc("Test", "Test_TestFunc");
         return true;
     }
 
     @Override
     public boolean OnCreate() {
-        ScriptEngine.RunFile("scripts/Test.lua");
-        System.out.println("Test_TestVar="+ScriptEngine.GetInt("Test_TestVar"));
+        ScriptEngine.RunFile("Test","scripts/Test.lua");
+        System.out.println("Test_TestVar="+ScriptEngine.GetInt("Test", "Test_TestVar"));
 
 
 
