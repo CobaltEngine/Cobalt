@@ -2,7 +2,6 @@ package io.github.cobalt.core;
 
 import io.github.cobalt.jsfml.JSFML_Renderer2D;
 import io.github.cobalt.jsfml.JSFML_Window;
-import io.github.cobalt.jsfml.MismatchedContextException;
 
 import java.awt.*;
 

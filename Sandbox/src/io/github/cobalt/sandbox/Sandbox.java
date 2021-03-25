@@ -3,6 +3,11 @@ package io.github.cobalt.sandbox;
 import io.github.cobalt.core.*;
 
 import io.github.cobalt.scripting.*;
+import io.github.cobalt.common.utils.FileWalker;
+
+import java.io.File;
+import java.util.Map;
+import java.util.Set;
 
 public class Sandbox extends Application {
 
@@ -12,17 +17,15 @@ public class Sandbox extends Application {
 
     @Override
     public boolean OnUpdate(float ts) {
-        ScriptEngine.CallFunc("Test", "Test_TestFunc");
+        for(Map.Entry<String, Context> program : ScriptEngine.GetAllPrograms()) {
+            ScriptEngine.CallFunc(program.getKey(), "OnUpdate");
+        }
         return true;
     }
 
     @Override
     public boolean OnCreate() {
-        ScriptEngine.RunFile("Test","scripts/Test.lua");
-        System.out.println("Test_TestVar="+ScriptEngine.GetInt("Test", "Test_TestVar"));
-
-
-
+        System.out.printf("Loaded %d Scripts%n",ScriptEngine.LoadAll("Scripts/"));
         return true;
     }
 

@@ -1,5 +1,6 @@
 package io.github.cobalt.jsfml;
 
+import io.github.cobalt.core.MismatchedContextException;
 import io.github.cobalt.core.Renderer2D;
 import io.github.cobalt.core.Window;
 import org.jsfml.graphics.RenderWindow;

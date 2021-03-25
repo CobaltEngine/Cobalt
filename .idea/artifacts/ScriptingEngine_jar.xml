@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ScriptingEngine:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ScriptingEngine_jar</output-path>
+    <root id="archive" name="ScriptingEngine.jar">
+      <element id="module-output" name="ScriptingEngine" />
+      <element id="module-output" name="Common" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/LuaJ/luaj-jme-3.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/LuaJ/luaj-jse-3.0.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/Libs/LuaJ/luaj-sources-3.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

@@ -7,10 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="JOML" level="project" />
-    <orderEntry type="module" module-name="Engine" />
-    <orderEntry type="module" module-name="Luaj_Modules" />
-    <orderEntry type="module" module-name="ScriptingEngine" />
-    <orderEntry type="module" module-name="Common" />
   </component>
 </module>
